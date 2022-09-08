@@ -1,4 +1,6 @@
-function [x, y] = map_projection_project(ref, lat, lon, earth_radius)
+function [x, y] = map_projection_project(ref, lat, lon)
+
+earth_radius = single(6371000);
 
 % lat,lon are expected to be in correct format: -> 47.1234567 and not 471234567
 
