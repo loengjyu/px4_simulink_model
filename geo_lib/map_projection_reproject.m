@@ -18,7 +18,7 @@ else
     lon = rad2deg(ref.lon_rad);
 end
 
-result = 0;
+result = false;
 
 end
 
